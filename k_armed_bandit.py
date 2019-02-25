@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # =============================================================================
-# Create the simple bandit algorithm
+# Create the bandit algorithm
 # =============================================================================
 def bandit(K,steps,eps,initialVal,UCB):
     # INPUT: K - number of bandits
